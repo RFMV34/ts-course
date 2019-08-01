@@ -1,0 +1,15 @@
+<html>
+<body>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chance/1.0.18/chance.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.20.12/system.js"></script>
+<script>
+    SystemJS.config({
+        map: {
+            'lodash': './node_modules/lodash/lodash.js',
+        }
+    });
+    SystemJS.import('selfAssessmentLab.js')
+</script>
+</body>
+</html>
